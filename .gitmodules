@@ -1,0 +1,9 @@
+[submodule "OvertakeAssistant"]
+	path = OvertakeAssistant
+	url = https://github.com/Piggywu981/OvertakeAssistant.git
+[submodule "SequentialAutoShift"]
+	path = SequentialAutoShift
+	url = https://github.com/Piggywu981/SequentialAutoShift.git
+[submodule "SpeedLimitUnlocker"]
+	path = SpeedLimitUnlocker
+	url = https://github.com/Piggywu981/SpeedLimitUnlocker.git

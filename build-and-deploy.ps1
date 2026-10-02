@@ -28,6 +28,7 @@ New-Item -ItemType Directory -Force -Path $env:APPDATA, $env:DOTNET_CLI_HOME, $e
 
 # Plugins to build: name → project sub-path
 $plugins = @(
+    @{ Name = "AutoParking";         Project = "AutoParking\AutoParking.csproj";             Config = "AutoParking\NuGet.Config" }
     @{ Name = "OvertakeAssistant";   Project = "OvertakeAssistant\OvertakeAssistant.csproj";     Config = "OvertakeAssistant\NuGet.config" }
     @{ Name = "SequentialAutoShift"; Project = "SequentialAutoShift\SequentialAutoShift.csproj"; Config = "SequentialAutoShift\NuGet.Config" }
     @{ Name = "SpeedLimitUnlocker";  Project = "SpeedLimitUnlocker\SpeedLimitUnlocker.csproj";   Config = "SpeedLimitUnlocker\NuGet.Config" }

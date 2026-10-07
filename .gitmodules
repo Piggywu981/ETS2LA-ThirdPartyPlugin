@@ -7,3 +7,6 @@
 [submodule "SpeedLimitUnlocker"]
 	path = SpeedLimitUnlocker
 	url = https://github.com/Piggywu981/SpeedLimitUnlocker.git
+[submodule "AutoParking"]
+	path = AutoParking
+	url = https://github.com/Piggywu981/AutoParking.git
